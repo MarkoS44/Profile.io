@@ -1,0 +1,154 @@
+body, html{
+    background: url(images/BackGround.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat; 
+    background-size: cover; 
+    font-family:'Courier New', Courier, monospace; 
+    width: 100%;
+    height: 100%;  
+}
+
+.nav{
+  background-color: lightskyblue;
+  align-items: center;
+  justify-content: center;    
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: orange;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    font-size: 20px;
+}
+ul:hover{
+    transform: scale(1,1.2);
+    transition: 1s;
+    animation:alternate;
+    
+}
+ul li {
+    display:inline-block; 
+    padding-top: 12px;
+      
+}
+ul:hover{
+    transform: scale(1 ,1.2);
+    transition: 0.1s;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-right: 200px;
+    margin-left:200px; 
+} 
+
+.header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    max-width: 250px;
+    margin-top: 30px;
+    margin-bottom:10px;  
+}
+ p{
+     color: orange;
+     text-align:center;
+     padding-top:5px;
+     
+ }
+ p:hover{
+    transform: scale(1, 1.2);
+    cursor: pointer;
+    transition: 0s;
+    font-weight: bold;
+    
+
+ }
+ h2{
+     margin-left: 5px;
+     margin-top: 5px;
+     margin-right: 5px;
+     margin-bottom:5px;
+     padding-top: 25px;
+     color:#1D66D1;
+     padding-bottom:5px;
+     padding-right: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding-left: 30px;
+     
+     
+    }
+h2:hover{
+    transform: scale(1 ,1.2);
+    transition: 0.1s;
+    font-weight: bold;  
+    text-decoration: underline;
+}
+.firstlist{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   color:orange;
+   padding-left: 200px;
+   margin-right: 12px;
+   font-size:20px;
+}
+.secondlist{
+    display: flex;
+   justify-content:center;
+   align-items: center;
+   color:orange;
+   padding-left: 100px;
+   margin-right: 12px;
+   font-size:20px;
+   padding-bottom: 20px;
+}
+.font{
+    color: orange;
+    font-size: 30px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 800px;
+color:white;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
+
